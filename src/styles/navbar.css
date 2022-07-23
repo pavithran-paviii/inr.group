@@ -1,0 +1,49 @@
+#navbar {
+  width: 15%;
+  border: 1px solid red;
+  /* height: 100vh; */
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#navbar > :last-child {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+#profilePic {
+  border-radius: 13px;
+  width: 72px;
+  height: 72px;
+}
+
+#loginUsername {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#userEmail {
+  color: #ffffff;
+  opacity: 0.6;
+  mix-blend-mode: normal;
+}
+
+#navroutes {
+  color: #ffffff;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+#navRoutesContainer {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+#navRoutesContainer > h2:first-child {
+  opacity: 1;
+}
