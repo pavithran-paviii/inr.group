@@ -14,4 +14,4 @@
 
 ![loginDiv](https://user-images.githubusercontent.com/73953959/180657262-345978f9-bc11-4c06-b1e5-5883fc1e8b70.png)
 
-### - To close popup click anywhere outside of it.
+### - To close popup click anywhere outside the login popup.
