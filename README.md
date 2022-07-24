@@ -5,6 +5,9 @@
  -This project was create using React, HTML, CSS, Javascript.
  <br>
  <br>
+ -Project is responsive for multiple screens such as laptops,tablets,mobile....
+ <br>
+ <br>
  -It was created in Pure CSS without help of external libraries.
  <br>
  <br>
