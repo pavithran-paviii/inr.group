@@ -37,6 +37,7 @@
 #navbar-login-btn {
   margin-top: 10px;
   font-weight: 200;
+  cursor: pointer;
 }
 
 #profilePic {
@@ -63,6 +64,7 @@
   color: #ffffff;
   font-weight: 450;
   opacity: 0.5;
+  cursor: default;
 }
 
 #navRoutesContainer {

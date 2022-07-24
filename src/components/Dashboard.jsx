@@ -26,14 +26,16 @@ export const Dashboard = () => {
           </div>
         </div>
         {dashboardspendtitles.map((data) => {
-          return <Dashboardchildcontainers data={data} />;
+          return (
+            <Dashboardchildcontainers data={data} key={data.dashboradtitle} />
+          );
         })}
       </div>
       <div id="dashboardRight">
         <div id="dashboard-right-heading">Spend Statistics:</div>
         <div style={{ marginTop: "25px" }}>
           {spendstatistics.map((data) => {
-            return <Spendstatistics data={data} />;
+            return <Spendstatistics data={data} key={data.title} />;
           })}
         </div>
         <Tipscontainer />
