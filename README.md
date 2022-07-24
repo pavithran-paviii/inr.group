@@ -1,4 +1,6 @@
-# Cloning the figma UI.
+# Designing the page exactly how it is presented in the Figma.
+
+[Link to Figma](https://www.figma.com/file/eZCfWBDEm82bzYey1VhZLD/Dashboard-UI---INR-Group?node-id=0%3A1)
 
  -This project was create using React, HTML, CSS, Javascript.
  <br>
