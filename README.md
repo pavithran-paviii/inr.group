@@ -4,6 +4,9 @@
  <br>
  <br>
  -It was created in Pure CSS without help of external libraries.
+ <br>
+ <br>
+ - The spend statistics bars in right is dynamic and updates by calculation the percentage from the total limit and usage.
  
 ## Dashboard
 
