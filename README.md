@@ -1,6 +1,7 @@
 # Cloning the figma UI.
 
  -This project was create using React, HTML, CSS, Javascript.
+ <br>
  -It was created in Pure CSS without help of external libraries.
  
 ## Dashboard
