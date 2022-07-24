@@ -1,5 +1,6 @@
 import "./App.css";
 import { Dashboard } from "./components/Dashboard";
+import { Hiddennavbar } from "./components/Hiddennavbar";
 import { Login } from "./components/Login";
 import { Navbar } from "./components/Navbar";
 
@@ -10,8 +11,10 @@ function App() {
     let overlay = document.getElementById("overlay");
     overlay.classList.remove("active");
   }
+
   return (
     <div id="wholeContainer">
+      <Hiddennavbar />
       <Navbar />
       <Dashboard />
       <Login />

@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: 200ms ease-in-out;
 }
 
 #navbar-image-container {
@@ -63,7 +64,7 @@
 #navroutes {
   color: #ffffff;
   font-weight: 450;
-  opacity: 0.5;
+  font-size: clamp(1rem, 1.4vw, 2rem);
   cursor: default;
 }
 
@@ -77,4 +78,100 @@
 
 #navRoutesContainer > h2:first-child {
   opacity: 1;
+}
+
+/* dynamic using media query  */
+
+@media only screen and (max-width: 950px) {
+  #tips-content {
+    font-size: clamp(0.5rem, 0.8vw, 1rem);
+  }
+  #tips-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #tips-container {
+    width: 100%;
+  }
+  #tips-content {
+    font-size: clamp(0.5rem, 1.1vw, 1rem);
+  }
+  #navbar {
+    display: none;
+  }
+  #dashboard {
+    width: 90%;
+    margin-top: 40px;
+  }
+  #hidden-navbar {
+    display: block;
+    z-index: 32;
+  }
+  #navbar.active {
+    transition: 200ms ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    display: block;
+    z-index: 30;
+    background-color: #262a41;
+    padding: 5%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #login-container {
+    width: 80%;
+  }
+  #smoke-logo {
+    display: none;
+  }
+
+  #smoke-text {
+    margin: 10px 0;
+  }
+  #tips-container {
+    width: 80%;
+  }
+  #login-form {
+    margin-top: 20%;
+  }
+  #dashboard {
+    flex-direction: column;
+  }
+  #dashboardLeft {
+    width: 80%;
+    padding: 30px 10%;
+  }
+  #dashboardRight {
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #dashboard-left-head {
+    flex-direction: column;
+    position: relative;
+  }
+  #dashboardImg {
+    margin: 10px 0;
+  }
+  #dashboardImg > :first-child {
+    left: 0;
+  }
+  #dashboardImg > img:nth-child(2) {
+    left: 12%;
+  }
+  #dashboardImg > img:nth-child(3) {
+    left: 24%;
+  }
+  #dashboardImg > span {
+    left: 60%;
+  }
 }

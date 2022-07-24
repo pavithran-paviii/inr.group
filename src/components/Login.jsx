@@ -7,15 +7,15 @@ export const Login = () => {
   return (
     <div id="login-container" className="center-div">
       <div id="login-head">
-        <img src={loginlogo} alt="" />
+        <img src={loginlogo} alt="" id="smoke-logo"/>
         <img
           src={smoketext}
           alt=""
+          id="smoke-text"
           className="center-div"
-          style={{ marginLeft: "40px" }}
         />
       </div>
-      <form>
+      <form id="login-form">
         <div className="login-input">
           <label htmlFor="email">Email</label>
           <input type="email" id="email" />

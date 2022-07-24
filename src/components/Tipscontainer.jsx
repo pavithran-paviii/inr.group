@@ -9,14 +9,12 @@ export const Tipscontainer = () => {
       <img src={planta} alt="" id="planta-icon" />
       <div id="tips-inner-container">
         <div>
-          <h4>Como ahorrar</h4>
-          <p id="tips-para">
+          <h4 className="tips-content">Como ahorrar</h4>
+          <p id="tips-para" className="tips-content">
             Activa este método para realizar ahorros y verifica los procesos que
             te beneficien
           </p>
-          <button id="tips-btn">
-            SEND TIPS
-          </button>
+          <button id="tips-btn">SEND TIPS</button>
         </div>
       </div>
     </div>
