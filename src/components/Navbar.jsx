@@ -8,7 +8,12 @@ export const Navbar = () => {
   return (
     <div id="navbar">
       <div>
-        <img src={profilepic} alt="profilepic" id="profilePic" />
+        <div id="navbar-image-container">
+          <img src={profilepic} alt="profilepic" id="profilePic" />
+          <div>
+            9
+          </div>
+        </div>
         <h2 id="loginUsername">Hi, User</h2>
         <h6 id="userEmail">user@gmail.com</h6>
       </div>
@@ -17,7 +22,7 @@ export const Navbar = () => {
           return <Navroutes data={data} />;
         })}
       </div>
-      <h3>Login</h3>
+      <h3 id="navbar-login-btn">Login</h3>
     </div>
   );
 };
